@@ -1,0 +1,16 @@
+GET https://demowebshop.tricentis.com:443/content/images/thumbs/0000003_desktops_125.jpg HTTP/1.1
+Host: demowebshop.tricentis.com
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://demowebshop.tricentis.com/computers
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Nop.customer=4c5df8de-4e08-4daf-a9e0-e30337c0dc87; __utmz=78382081.1704695783.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _vwo_uuid_v2=D0E93D2475FB51F8FF15F3DA8A1EB22A9|0fc105ed2a3f9221b5bea99667183726; _vwo_uuid=D0E93D2475FB51F8FF15F3DA8A1EB22A9; _vwo_ds=3%241704965190%3A49.62081778%3A%3A; _gcl_au=1.1.1227698769.1704965072; _biz_uid=587ff318bd4048daf8013ff6cd91430d; _fbp=fb.1.1704965072329.1610895074; PAPVisitorId=TQZfxIgWTGbb0n3tbsSaY6aw8uIdvdf0; intercom-id-zlji8uj7=6eeabe5e-d293-4487-a3e8-95a1330213d3; intercom-device-id-zlji8uj7=3e330980-6ba8-4e6b-b9b6-7d8116995fca; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _hjSessionUser_3539777=eyJpZCI6IjY1ZmQzNzI2LTIxN2ItNWMyNS04MGRiLTI0Njc3YTRjNzA5ZiIsImNyZWF0ZWQiOjE3MDUzMTE0MjUxNTUsImV4aXN0aW5nIjp0cnVlfQ==; _uetvid=a55f2990b38911ee80b413691f0729ad; _ga_9D529KRQBF=GS1.1.1705564538.4.0.1705564540.0.0.0; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=72; intercom-session-zlji8uj7=; _gcl_aw=GCL.1705981330.Cj0KCQiAwbitBhDIARIsABfFYIKsE66XYW62htyn5Bse1UZZZfflZf9Z60fUP9HkkpaNdCTMxV1LanYaAlwtEALw_wcB; _ga_4GZTBFVFZ1=GS1.2.1706168616.8.1.1706168631.45.0.0; _vis_opt_s=3%7C; _vis_opt_test_cookie=1; _gid=GA1.2.2140156725.1706499799; _ga_9WXYK3PMB6=GS1.1.1706499798.1.1.1706499817.41.0.0; _ga_8YKD435ZJX=GS1.1.1706499798.1.1.1706499817.0.0.0; _mkto_trk=id:070-PYT-570&token:_mch-tricentis.com-1704965069636-97193; OptanonConsent=isGpcEnabled=0&datestamp=Mon+Jan+29+2024+11%3A47%3A32+GMT%2B0800+(%E4%B8%AD%E5%9C%8B%E6%A8%99%E6%BA%96%E6%99%82%E9%96%93)&version=202208.1.0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1%2CC0003%3A1&AwaitingReconsent=false&geolocation=HK%3BHCW; OptanonAlertBoxClosed=2024-01-29T03:47:32.502Z; _vwo_sn=1534608%3A2%3A%3A%3A1; _biz_nA=12; _ga_489D1QT6C1=GS1.1.1706499699.7.1.1706500053.60.0.0; _biz_pendingA=%5B%5D; _ga=GA1.1.448656267.1704696069; _ga_65NTGYMYHS=GS1.1.1706500516.16.1.1706500531.0.0.0; ARRAffinity=09488a220542a61f19f894e0733b5b724cb0c5b93c529b39a1c39c2dc1ccea54; ARRAffinitySameSite=09488a220542a61f19f894e0733b5b724cb0c5b93c529b39a1c39c2dc1ccea54; __utma=78382081.1052796933.1704418061.1705910500.1706501087.10; __utmc=78382081; __utmt=1; __utmb=78382081.2.10.1706501087
+
