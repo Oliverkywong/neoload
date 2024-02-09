@@ -24,15 +24,24 @@ mongodb:
   mongodbPassword: oliver
 
 ### Services host configuration
+# services:
+#   webapp:
+#     host: neoload-web.mycompany.com
+#   api:
+#     host: neoload-web-api.mycompany.com
+#   files:
+#     host: neoload-web-files.mycompany.com
+
+# domain: .mycompany.com
 services:
   webapp:
-    host: neoload-web.mycompany.com
+    host: neoload-webneoloaddemo.com
   api:
-    host: neoload-web-api.mycompany.com
+    host: neoload-web-apineoloaddemo.com
   files:
-    host: neoload-web-files.mycompany.com
+    host: neoload-web-filesneoloaddemo.com
 
-domain: .mycompany.com
+domain: neoloaddemo.com
 
 ### Ingress configuration
 ### Choose your preferred ingress controller configuration
