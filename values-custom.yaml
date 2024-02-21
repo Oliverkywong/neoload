@@ -20,8 +20,8 @@ securityContext:
 ### MongoDB user configuration
 mongodb:
   usePassword: true
-  mongodbUsername: oliver
-  mongodbPassword: oliver
+  mongodbUsername: root
+  mongodbPassword: root
 
 ### Services host configuration
 # services:
@@ -35,13 +35,13 @@ mongodb:
 # domain: .mycompany.com
 services:
   webapp:
-    host: neoload-webneoloaddemo.com
+    host: neoload-web.neoloaddemo.com
   api:
-    host: neoload-web-apineoloaddemo.com
+    host: neoload-web-api.neoloaddemo.com
   files:
-    host: neoload-web-filesneoloaddemo.com
+    host: neoload-web-files.neoloaddemo.com
 
-domain: neoloaddemo.com
+domain: .neoloaddemo.com
 
 ### Ingress configuration
 ### Choose your preferred ingress controller configuration

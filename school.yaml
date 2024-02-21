@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: school
+  labels: 
+    app: school
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: school
+  template:
+    metadata:
+      labels:
+        app: school
+    spec:
+      containers:
+      - name: school
+        image: oliverkywong/school
+        ports: 
+        - containerPort: 3001
+        env:
+        - name: MYSQL_DATABASE # need to use dotenv on app.ts
+          value: school
+        - name: MYSQL_ROOT_PASSWORD # need to use dotenv on app.ts
+          value: root
+        - name: MYSQL_HOST # need to use dotenv on app.ts
+          valueFrom: 
+            configMapKeyRef:
+              name: mysql-configmap
+              key: host
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: school-service
+spec: 
+  selector: 
+    app: school
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 3001
+      targetPort: 3001
+      nodePort: 30000
